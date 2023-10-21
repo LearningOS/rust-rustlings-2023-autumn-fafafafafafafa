@@ -14,6 +14,7 @@
 // hint.
 
 
+
 fn main() {
     println!("Hello and");
     println!(r#"       welcome to...                      "#);
@@ -36,5 +37,6 @@ fn main() {
     println!(
         "If you want to use rust-analyzer, Rust's LSP implementation, make sure your editor is set"
     );
-    println!("up, and then run `rustlings lsp` before continuing.")
+    println!("up, and then run `rustlings lsp` before continuing.");
+    println!("hello world!");
 }
